@@ -1,0 +1,456 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <!-- DEFAULT COLORS -->
+        <meta name="color:Background" content="#fff"/>
+        <meta name="color:Title" content="#444"/>
+        <meta name="color:Description" content="#777"/>
+        <meta name="color:Post Title" content="#6498cc"/>    
+        <meta name="color:Text" content="#444"/>
+        <meta name="color:Inline Link" content="#6498cc"/>
+        <meta name="color:Quote" content="#888"/>
+        <meta name="color:Quote Border" content="#6498cc"/>
+        <meta name="color:Quote Source" content="#555"/>
+        <meta name="color:Link Post" content="#c00"/>
+        <meta name="color:Conversation Background 1" content="#f4f4f4"/>
+        <meta name="color:Conversation Background 2" content="#e8e8e8"/>
+        <meta name="color:Conversation Border" content="#bbb"/>
+        <meta name="color:Conversation Text" content="#444"/>
+        <meta name="color:Date" content="#ccc"/>
+        <meta name="color:Date Block" content="#6498cc"/>
+        <meta name="color:Date Block Text" content="#bbd5f1"/>        
+        <!-- END DEFAULT COLORS -->
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Marcus P. da Silva</title>
+
+        <style type="text/css">
+            body {
+                margin: 0px;
+                background-color: #fff;
+                font-family: 'Lucida Grande', Helvetica, sans-serif;
+            }            
+
+            a {
+                color: #0000FF;
+            }
+
+            h1 {
+                width: 600px;
+                padding: 0px 100px 20px 100px;
+                margin: 50px auto 40px auto;
+                border-bottom: solid 1px #ccc;
+                text-align: center;
+                font: Bold 55px 'Trebuchet MS', Helvetica, sans-serif;
+                letter-spacing: -2px;
+                line-height: 50px;
+                position: relative;
+            }
+            
+                h1 a {
+                    color: #444;
+                    text-decoration: none;
+                }
+                
+                h1 img {
+                    border-width: 0px;
+                    position: absolute;
+                    right: 0px;
+                    bottom: 10px;
+                    width: 43px;
+                    height: 23px;
+                }
+
+            div#content {
+                width: 420px;
+                margin: auto;
+                position: relative;
+            }
+
+                div#content div#description {
+                    position: absolute;
+                    right: -170px;
+                    width: 160px;
+                    text-align: right;
+                }
+
+            div#description {
+                font: Normal 17px Helvetica,sans-serif;
+                line-height: 20px;
+                color: #777;
+            }
+
+                div#description a {
+                    color: #777;
+                }
+            
+            div.post {
+                position: relative;
+                margin-bottom: 40px;
+                padding-right: 20px;
+            }
+
+                div.post div.date {
+                    position: absolute;
+                    left: -260px;
+                    text-align: right;
+                    width: 230px;                
+                    white-space: nowrap;
+                    font: Normal 34px Helvetica, sans-serif;
+                    letter-spacing: -2px;
+                    color: #ccc;
+                    text-transform: uppercase;
+                    line-height: 35px;
+                }
+                
+                    div.post div.date div.date_brick {
+                        float: right;
+                        height: 30px;
+                        width: 55px;
+                        background-color: #0000FF;
+                        color: #FFFFFF;
+                        font: Bold 12px Verdana, Sans-Serif;
+                        text-align: center;
+                        line-height: 12px;
+                        margin-left: 10px;
+                        padding-top: 5px;
+                        letter-spacing: 0px;
+                        overflow: hidden;
+                    }
+
+                div.post img.permalink {
+                    width: 14px;
+                    height: 13px;
+                    border-width: 0px;
+                    background-color: #000;
+                    display: none;
+                    position: absolute;
+                    right: 0px;
+                    top: 0px;
+                    z-index: 10;
+                }
+                
+                    div.post:hover img.permalink {
+                        display: inline;
+                    }
+
+                div.post h2 {
+                    font-size: 18px;
+                    font-weight: Bold;
+                    color: #0000FF;
+                    letter-spacing: -1px;
+                    margin: 0px 0px 5px 0px;
+                }
+
+                    div.post h2 a {
+                        color: #0000FF;
+                        text-decoration: none;
+                    }
+            
+                div.post div.caption {
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #444;
+                    margin-top: 10px;
+                    padding: 0px 20px 0px 20px;
+                }
+
+                    div.post div.caption a {
+                        color: #444;
+                    }
+    
+            /* Regular Post */
+            
+                div.post div.regular {
+                    font-size: 12px;
+                    color: #444;
+                    line-height: 17px;
+                }
+
+                    div.post div.regular blockquote {
+                        font-style: italic;
+                        border-left: solid 2px #444;
+                        padding-left: 10px;
+                    }
+                        
+            /* Quote Post */
+            
+                div.post div.quote div.quote_text {
+                    font-family: Helvetica, sans-serif;
+                    font-weight: bold;
+                    color: #888;
+                    border-left: solid 5px #6498cc;
+                    padding-left: 10px;
+                }
+                
+                    div.post div.quote div.quote_text span.short {
+                        font-size: 36px;
+                        line-height: 40px;
+                        letter-spacing: -1px;
+                    }
+                    
+                    div.post div.quote div.quote_text span.medium {
+                        font-size: 25px;
+                        line-height: 27px;
+                        letter-spacing: -1px;
+                    }
+                    
+                    div.post div.quote div.quote_text span.long {
+                        font-size: 16px;
+                        line-height: 20px;
+                    }
+
+                    div.post div.quote div.quote_text a {
+                        color: #888;
+                    }
+        
+                div.post div.quote div.source {
+                    font-size: 16px;
+                    font-weight: Bold;
+                    color: #555;
+                    margin-top: 5px;
+                }
+
+                    div.post div.quote div.source a {
+                        color: #555;
+                    }
+            
+            /* Link Post */
+            
+                div.post div.link a.link {
+                    font: Bold 20px Helvetica, sans-serif;
+                    letter-spacing: -1px;
+                    color: #c00;
+                }
+
+                    div.post div.link span.description {
+                        font-size: 13px;
+                        font-weight: normal;
+                        letter-spacing: -1px;
+                        color: #444;
+                    }
+            
+            /* Conversation Post */
+                        
+                div.post div.conversation ul {
+                    list-style-type: none;
+                    margin: 0px;
+                    padding: 0px 0px 0px 1px;
+                    border-left: solid 5px #bbb;
+                }
+            
+                    div.post div.conversation ul li {
+                        font-size: 12px;
+                        padding: 4px 10px 4px 8px;
+                        color: #444;
+                        margin-bottom: 1px;
+                    }
+            
+                        div.post div.conversation ul li span.label {
+                            font-weight: bold;
+                        }
+                        
+                            div.post div.conversation ul li span.user_1 {
+                                color: #c00;
+                            }
+                            
+                            div.post div.conversation ul li span.user_2 {
+                                color: #00c;
+                            }
+                            
+                            div.post div.conversation ul li span.user_3 {
+                                color: #0a0;
+                            }
+                        
+                        div.post div.conversation ul li.odd {
+                            background-color: #f4f4f4;
+                        }
+
+                        div.post div.conversation ul li.even {
+                            background-color: #e8e8e8;
+                        }
+            
+            /* Video Post */
+            
+                div.post div.video {
+                    width: 400px;
+                    margin: auto;
+                }
+
+           /* Contact */
+
+                div.contact {
+                    font: Normal 12px Georgia, serif;
+                    margin: 40px 0px 30px 0px;
+                    text-align: center;
+                    font-size: 12px;
+                    font-weight: Normal;
+                    color: #444;
+                    border-bottom: solid 1px #ccc;
+                }
+          /* Menu */
+
+#menu {
+	color: #808080;
+        text-align: center; 
+	padding: 3px;
+	margin-bottom: 25px;
+	}
+
+#menu ul {
+	margin-left: 0;
+	padding-left: 0;
+	display: inline;
+	border: none;
+	} 
+
+#menu ul li {
+	margin-left: 0;
+	padding-left: 2px;
+	border: none;
+	list-style: none;
+	display: inline;
+	}
+
+#menu ul li:before {
+	content: "\0020 \0020 \0020 \00BB \0020";
+	}
+	
+#menu ul li.first:before {
+	content: " ";
+	}
+
+            /* Footer */
+            
+                div#footer {
+                    margin: 40px 0px 30px 0px;
+                    text-align: center;
+                    font-size: 15px;
+                    font-weight: bold;
+                    color: #444;
+                }
+            
+                    div#footer a {
+                        text-decoration: none;
+                        color: #808080;
+                    }
+            
+                        div#footer a:hover {
+                            text-decoration: underline;
+                        }
+                    
+                    div#footer div#credit {
+                        font: Normal 13px Georgia, serif;
+color: #C0C0C0;
+                        font-size: 13px;
+                        margin-top: 15px;
+                    }
+div.post a[href^="http"] {
+padding-right: 15px;
+background-image: url(external.png);
+background-position: right !important;
+background-repeat: no-repeat;
+text-decoration: none;
+}
+</style>
+    </head>
+    <body>
+<!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript">
+var sc_project=477611; 
+var sc_partition=2; 
+</script>
+<script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><a href="http://www
+.statcounter.com/" target="_blank"><img  src="http://c3.statcounter.com/counter.php?sc_project=477611&amp;amp;java=0" alt="free hit counter scr
+ipt" border="0"></a> </noscript>
+<!-- End of StatCounter Code -->
+<!-- start reinvigorate code -->
+<script type="text/javascript" src="http://include.reinvigorate.net/re_.js"></script>
+<script type="text/javascript">
+re_("b4218-h71i05m11y");
+</script>
+<!-- end reinvigorate code -->
+         <h1>
+            <a href="/">Marcus P. da Silva</a>
+        </h1>
+	<div id="menu">
+	  <ul>
+	    <li class="first"><a href="index.html">Home</a></li>
+	<li><a href="http://www.researcherid.com/rid/B-2908-2010">Publications</a></li>
+        <li><a href="http://arxiv.org/a/silva_m_1">E-Prints</a></li>
+	    <li>Contact</li>
+   <li><a href="http://github.com/marcusps">Code</a></li>
+	  </ul>
+	</div>
+	
+	<div id="content">
+	  
+	<!-- MAILING ADDRESS -->
+	<div class="post">
+	<div class="date">
+	<div class="date_brick">
+	</div>
+	Address
+	</div>
+	<div class="regular">
+	  <p>
+	  Marcus P. da Silva <br/>
+	  Disruptive Information Processing Technologies (DIPT) Group<br/>
+	  Raytheon BBN Technologies<br>
+	  10 Moulton St.<br/>
+	  Cambridge, MA<br/>
+	  02138<br/>
+	  USA
+	  </p>
+	</div>
+	</div>
+
+    <div class="post">
+    <div class="date">
+    <div class="date_brick">
+    </div>
+    Papers
+    </div>
+    <div class="regular">
+    <p><a href="http://arxiv.org/a/silva_m_1">E-prints</a></p>
+    <p><a href="http://www.researcherid.com/rid/B-2908-2010">Refereed publications and citations</a></p>
+<p><span id='badgeCont499167' style='width:126px'><script src='http://labs.researcherid.com/mashlets?el=badgeCont499167&mashlet=badge&showTitle=false&className=a&rid=B-2908-2010'></script></span></p>
+    </div>
+    </div>
+
+	<!-- EMAIL -->
+	<div class="post">
+	<div class="date">
+	<div class="date_brick">
+	</div>
+	E-Mail
+	</div>
+	<div class="regular">
+        <p>msi<a href="http://www.google.com/recaptcha/mailhide/d?k=01ABtH4rgFlDadWVTLH4yTag==&amp;c=UC7lW0FrgPnfT8pL3eKjXw==" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501ABtH4rgFlDadWVTLH4yTag\75\75\46c\75UC7lW0FrgPnfT8pL3eKjXw\75\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">...</a>@bbn.com<p>
+	</div>
+	</div>
+
+	<!-- FACE -->
+	<div class="post">
+	<div class="date">
+	<div class="date_brick">
+	</div>
+	Picture
+	</div>
+	<div class="photo">
+	  <a href="http://www.flickr.com/photos/marcusps/311095457/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/118/311095457_5757debe0a_o.jpg" width="400" height="300" alt="Marcus Silva at Hie Jinja" /></a><br/>
+	<div class="caption">Autoportrait on the way out of Hie Jinja Shrine</div>
+	</div>
+	</div>
+	
+	<!-- FOOTER -->
+	<div id="footer">
+	<div id="credit">
+	  Layout shamelessly copied from <a href="http://www.tumblr.com/"
+	  target="_blank">Tumblr</a>
+	</div>
+	</div>
+	</div>
+</body>
+</html>
