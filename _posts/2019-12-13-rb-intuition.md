@@ -77,11 +77,6 @@ random distribution of measurement outcomes, we can improve this
 estimate by taking more samples from this distribution (i.e., running the
 experiment more times).
 
-Interestingly, there is a trade-off between sampling $$f(k)$$ more times
-to obtain a better estimate, and choosing $$k$$ ( the length of the
-experiment) so that we obtain $$p$$ with greater accuracy for the same 
-number of experiments.
-
 It is known that RB (and related experiments) can yield an estimate of
 $$p$$ that has very small uncertainties. This has been verified
 empirically in too many experiments to mention, but this is also a result that
@@ -121,7 +116,6 @@ respect to $$f(k)$$:
 \begin{equation}
 \frac{\partial p}{\partial f(k)} = \frac{1}{A} \frac{1}{k} p^{1-k}.
 \end{equation}
-
 
 Our goal is to minimize $$\sigma_p$$ with respect to the sequence
 length $$k$$.
@@ -170,9 +164,9 @@ variance obtained from the shortest sequences. Recall that $$k_*\approx\frac{1}{
 which can be quite large for high quality devices.
 
 For example, in the regime where $$p\approx 0.999$$, this corresponds to a factor of
-$$300$$ improvement in accuracy with the same effort! Trying to obtain
+$$17$$ improvement in accuracy (the standard deviation) with the same effort! Trying to obtain
 such an improvement by increasing the number of samples would require
-the number of samples to be increased by a factor of $$90000$$!
+the number of samples to be increased by a factor of $$300$$!
 
 ## *But we don't know what $$p$$ is*!
 
@@ -204,7 +198,7 @@ estimates), we hope this gives a intuitive illustration of why
 RB and related protocols with long sequence lengths can yield such high accuracy estimates of
 error rates in quantum computers. 
 
-### Post-script: *Estimating A and B*
+### Estimating A and B
 
 In this post, we mentioned that it is straightforward to esimate $$A$$ and $$B$$. 
 To do this, one can run a zero-length RB sequence and an infinite length RB sequence:
