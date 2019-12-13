@@ -3,7 +3,7 @@ layout: post
 title: "How long should your quantum benchmarking experiments be?"
 date: 2019-12-13
 usemathjax: true
-author: **Shelby Kimmel** (Assistant Professor, Middlebury College) and **Marcus Silva** (Principal Researcher, Quantum Systems, Microsoft)
+author: "Shelby Kimmel (Assistant Professor, Middlebury College) and Marcus Silva (Principal Researcher, Quantum Systems, Microsoft)"
 tags: randomized-benchmarking rb cross-entropy-benchmarking xeb uncertainty
 ---
 
