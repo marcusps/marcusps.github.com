@@ -128,7 +128,7 @@ respect to $$f(k)$$
 \end{equation}
 from which we can deduce that
 \begin{equation}
-\sigma_p^2 \approx \left| \frac{\partial p}{\partial f(k)} \right|^2~{\sigma^2} 
+\sigma_p^2 \approx \left| \frac{\partial p}{\partial f(k)} \right|^2~{\sigma_f^2} 
 \end{equation}
 
 the quantity we care about minimizing with respect to the sequence
