@@ -7,3 +7,6 @@ permalink: /blog/:year/:month/:day/:title
 
 title: MPS' blog
 description: Marcus' blog. Views are my own.
+
+site:
+  author: Marcus P. da Silva
