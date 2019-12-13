@@ -3,11 +3,12 @@ layout: post
 title: "How long should your quantum benchmarking experiments be?"
 date: 2019-12-13
 usemathjax: true
-author: "[Shelby Kimmel](http://shelbykimmel.com/) (Assistant Professor, Middlebury College) and Marcus Silva (Principal Researcher, Quantum Systems, Microsoft)"
+author: '<a href="http://shelbykimmel.com/">Shelby Kimmel</a> (Assistant Professor, Middlebury College) and Marcus Silva (Principal Researcher, Quantum Systems, Microsoft)'
 tags: randomized-benchmarking rb cross-entropy-benchmarking xeb uncertainty
 ---
 
-**TLDR** We give a simple (non-rigorous) argument for how to choose the length of
+**TLDR** We give a simple intuitive (and only semi-rigorous) argument 
+  for how to choose the length of
   experiments used to benchmark quantum computers, and also point how
   accurate the resulting noise level estimates can be vs. othe methods.
 
