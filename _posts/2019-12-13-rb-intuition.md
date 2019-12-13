@@ -3,7 +3,7 @@ layout: post
 title: "How long should your quantum benchmarking experiments be?"
 date: 2019-12-13
 usemathjax: true
-author: "Shelby Kimmel (Assistant Professor, Middlebury College) and Marcus Silva (Principal Researcher, Quantum Systems, Microsoft)
+author: "**Shelby Kimmel** (Assistant Professor, Middlebury College) and **Marcus Silva** (Principal Researcher, Quantum Systems, Microsoft)
 "
 tags: randomized-benchmarking rb cross-entropy-benchmarking xeb uncertainty
 ---
@@ -40,8 +40,6 @@ integer corresponding to the length of experimental sequences that are
 sampled, and $$p$$ is the quantity we really care about -- it generaly
 corresponds to a measure of how good the operations in the quantum computer are,
 and the higher $$p$$ is, the better the quantum computer.
-
-$${\color{red}{\text{Include simple plot of exponential decay}}}$$
 
 ### *What do these parameters mean?*
 
@@ -134,7 +132,7 @@ from which we can deduce that
 the quantity we care about minimizing with respect to the sequence
 length $$k$$.
 
-## *The optimal sequence length, and how much we gain*
+## *The optimal sequence length*
 
 Note that $$\sigma_f^2$$ also depends on $$k$$, and taking that dependence
 on $$k$$ into account makes things a bit messy whne we look for the minimal 
@@ -213,4 +211,3 @@ Although we have swept some details under the rug (bias of the
 estimates, etc.), we hope this gives a intuitive illustration of why
 RB and related protocols can yield such high accuracy estimates of
 error rates in quantum computers. 
-$$
