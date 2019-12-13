@@ -1,5 +1,6 @@
 name: Marcus P. da Silva
 markdown: kramdown
+  math-engine: mathjax
 
 theme: jekyll-theme-minimal
 permalink: /blog/:year/:month/:day/:title
