@@ -2,3 +2,4 @@ name: Marcus P. da Silva
 markdown: kramdown
 
 theme: jekyll-theme-minimal
+permalink: /blog/:year/:month/:day/:title
