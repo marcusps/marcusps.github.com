@@ -4,3 +4,6 @@ markdown: kramdown
 
 theme: jekyll-theme-minimal
 permalink: /blog/:year/:month/:day/:title
+
+title: MPS' blog
+description: Marcus' blog. Views are my own.
