@@ -7,11 +7,15 @@ author: 'Shelby Kimmel (Assistant Professor, Middlebury College) and Marcus Silv
 tags: randomized-benchmarking rb cross-entropy-benchmarking xeb uncertainty
 ---
 
+
 **TLDR** We give a simple intuitive (and only semi-rigorous) argument 
   for how to choose the length of
   experiments used to benchmark quantum computers, and also point how
-  accurate the resulting noise level estimates can be vs. othe methods.
-
+  accurate the resulting noise level estimates can be vs. othe methods. If you 
+  think your exponential will look like $$A~p^k+B$ for $p\lessapprox 1$, 
+  then you should choose $k$ to be
+  around $\frac{1}{1-p}$.
+  
 (see more of Prof. Kimmel's work [here](http://www.shelbykimmel.com))
 
 ## *Introduction*
