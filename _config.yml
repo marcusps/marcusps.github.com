@@ -5,4 +5,4 @@ theme: jekyll-theme-minimal
 permalink: /blog/:year/:month/:day/:title
 
 title: MPS' blog
-description: Marcus' blog. Views are my own.
+description: My name is <a href="https://marcusps.github.io/">Marcus P. da Silva</a>, and this is my blog. It is seldomly updated. The views are my own.
