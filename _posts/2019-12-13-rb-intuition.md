@@ -59,7 +59,8 @@ how well we can initialize the quantum computer, and how well we
 can read out the information in the quantum computer.
 
 For the purposes of this discussion, we will take $$A$$ and $$B$$ to be known, as 
-they can be estimated largely independently $$p$$ and in a way that is independent of experiment length (for example, using [these experiments](#Estimating-A-and-B)).
+they can be estimated largely independently $$p$$ and in a way that is independent of experiment length (
+see the post script below).
 
 ## *Estimating $$p$$ without fitting*
 
