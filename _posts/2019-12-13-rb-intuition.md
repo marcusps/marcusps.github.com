@@ -15,9 +15,9 @@ tags: randomized-benchmarking rb cross-entropy-benchmarking xeb uncertainty
   then you should choose $$k$$ to be
   around $$\frac{1}{1-p}$$.
 
-__This post was written as part of the [Q# Advent calendar for 2019](https://devblogs.microsoft.com/qsharp/q-advent-calendar-2019/)__. 
+*This post was written as part of the [Q# Advent calendar for 2019](https://devblogs.microsoft.com/qsharp/q-advent-calendar-2019/)*. 
 
-__See more of Prof. Kimmel's work [here](http://www.shelbykimmel.com)__
+*See more of Prof. Kimmel's work [here](http://www.shelbykimmel.com)*
 
 ## *Introduction*
 
