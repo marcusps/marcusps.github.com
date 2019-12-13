@@ -5,7 +5,7 @@ date: 2019-12-13
 usemathjax: true
 author: "Shelby Kimmel (Assistant Professor, Middlebury College) and Marcus Silva (Principal Researcher, Quantum Systems, Microsoft)
 "
-tags: test
+tags: randomized-benchmarking rb cross-entropy-benchmarking xeb uncertainty
 ---
 
 **TLDR** We give a simple (non-rigorous) argument for how to choose the length of
