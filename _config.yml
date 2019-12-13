@@ -7,5 +7,5 @@ kramdown:
 theme: jekyll-theme-minimal
 permalink: /blog/:year/:month/:day/:title
 
-title: MPS' blog
-description: My name is <a href="https://marcusps.github.io/">Marcus P. da Silva</a>, and this is my blog. It is seldomly updated. The views are my own.
+title: Marcus' blog
+description: My name is <a href="https://marcusps.github.io/">Marcus P. da Silva</a>, and this is my blog. I am a Principal Researcher in the Quantum System group at Microsoft. The views expressed here are my own.
